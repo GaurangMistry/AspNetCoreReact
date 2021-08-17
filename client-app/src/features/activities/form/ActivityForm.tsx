@@ -29,7 +29,7 @@ export default observer(function ActivityForm(){
 
     function handleSubmit(){
         //activity.id ? updateActivity(activity) : createActivity(activity);
-        if(activity.id.length == 0)
+        if(activity.id.length === 0)
         {
             let newActivity = {
                 ...activity,
