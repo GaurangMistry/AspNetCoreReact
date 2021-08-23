@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{AFB613A0-4C88-4FF9-A208-C885EFFCE629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presistence", "Presistence\Presistence.csproj", "{56A2C8DB-1A10-4C84-9501-64C4223845DD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{1FAF34C9-56FC-4B59-AC0D-9B5CFC0D88F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A6BE0ADF-06F6-4AC2-A451-397BA40BD4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{7940825D-6216-4AAC-93CD-84673913F441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,5 +86,17 @@ Global
 		{A6BE0ADF-06F6-4AC2-A451-397BA40BD4F8}.Release|x64.Build.0 = Release|Any CPU
 		{A6BE0ADF-06F6-4AC2-A451-397BA40BD4F8}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6BE0ADF-06F6-4AC2-A451-397BA40BD4F8}.Release|x86.Build.0 = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|x64.Build.0 = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Debug|x86.Build.0 = Debug|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|x64.ActiveCfg = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|x64.Build.0 = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|x86.ActiveCfg = Release|Any CPU
+		{7940825D-6216-4AAC-93CD-84673913F441}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
