@@ -40,10 +40,10 @@ export default observer (function ProfileActivities() {
                     />
                     <br />
                     <Card.Group itemsPerRow={4}>
-                        {userActivities.map((activity:UserActivity) => {
+                        {userActivities.map((activity:UserActivity) => (
                             <Card key={activity.id} as={Link} to={`/activities/${activity.id}`}>
                                 <Image 
-                                    src={`/assets/categroyImages/${activity.category}.jpg`} 
+                                    src={`/assets/categoryImages/${activity.category}.jpg`} 
                                     style={{ marginHeight: 100, objectFit: 'cover'}}
                                 />
                                 <Card.Content>
@@ -54,7 +54,7 @@ export default observer (function ProfileActivities() {
                                     </Card.Meta>
                                 </Card.Content>
                             </Card>
-                        })}
+                        ))}
                     </Card.Group>
                 </Grid.Column>
             </Grid>
