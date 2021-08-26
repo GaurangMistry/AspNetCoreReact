@@ -3,7 +3,7 @@ import { observer } from 'mobx-react-lite'
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import {Segment, Header, Comment, Button, Loader} from 'semantic-ui-react'
+import {Segment, Header, Comment, Loader} from 'semantic-ui-react'
 import { useStore } from '../../../app/stores/store'
 import * as Yup from 'yup';
 import { formatDistanceToNow } from 'date-fns'
